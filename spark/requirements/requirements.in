@@ -1,0 +1,6 @@
+ipython
+pandas
+pyarrow
+numpy
+pyspark==3.3.1
+delta-spark==2.2.0
