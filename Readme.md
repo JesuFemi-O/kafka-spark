@@ -56,6 +56,8 @@ Debezium deviates slightly from Confluent's expected ENV VARs for Connect.
 | Key converter | `KEY_CONVERTER` | `CONNECT_KEY_CONVERTER` |
 | Value converter | `VALUE_CONVERTER` | `CONNECT_VALUE_CONVERTER` |
 | Config topic | `CONFIG_STORAGE_TOPIC` | `CONNECT_CONFIG_STORAGE_TOPIC` |
+| Offset topic | `OFFSET_STORAGE_TOPIC` | `CONNECT_OFFSET_STORAGE_TOPIC` |
+| Status topic | `STATUS_STORAGE_TOPIC` | `CONNECT_STATUS_STORAGE_TOPIC` |
 
 I had to use Debezium-style naming (no `CONNECT_` prefix) for some vars to get it working:
 
